@@ -2,6 +2,18 @@
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
     <item>
+      <title>0.1.12</title>
+      <pubDate>Tue, 21 Jul 2026 12:16:36 +0000</pubDate>
+      <sparkle:version>13</sparkle:version>
+      <sparkle:shortVersionString>0.1.12</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/danelyan/focus-releases/releases/download/v0.1.12/Focus-0.1.12.dmg"
+                 sparkle:edSignature="e+lAAIhsB81X/O2WE5OPEJ8uo0BbvA417dpHe0uR1emKyrE7Z30OTiOCbsUHIsg6midNJBUCAUDDuNoiIDmfDw=="
+                 length="7102901"
+                 type="application/octet-stream"/>
+    </item>
+
+    <item>
       <title>0.1.11</title>
       <pubDate>Tue, 21 Jul 2026 12:09:34 +0000</pubDate>
       <sparkle:version>12</sparkle:version>
