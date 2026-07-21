@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
+    <item>
+      <title>0.1.11</title>
+      <pubDate>Tue, 21 Jul 2026 12:09:34 +0000</pubDate>
+      <sparkle:version>12</sparkle:version>
+      <sparkle:shortVersionString>0.1.11</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/danelyan/focus-releases/releases/download/v0.1.11/Focus-0.1.11.dmg"
+                 sparkle:edSignature="0qhp8LcWEToGlUWC7XC24XHNnR0WGphgonfgEAE/aPNbthFdYU3fOKJgNyzlRVm634H145kd/sbvfLghDg92AA=="
+                 length="7102895"
+                 type="application/octet-stream"/>
+    </item>
+
     <title>Focus</title>
     <description>Обновления Focus</description>
     <language>ru</language>
