@@ -2,6 +2,59 @@
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
     <item>
+      <title>0.1.16</title>
+      <pubDate>Sun, 26 Jul 2026 15:32:15 +0000</pubDate>
+      <sparkle:version>15</sparkle:version>
+      <sparkle:shortVersionString>0.1.16</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <description sparkle:descriptionFormat="html"><![CDATA[
+<!DOCTYPE html>
+<html lang="ru"><head><meta charset="utf-8"><style>
+  :root { color-scheme: light dark; }
+  body { font: 13px/1.5 -apple-system, "Helvetica Neue", sans-serif;
+         margin: 12px 16px; color: #1d1d1f; background: transparent; }
+  h1 { font-size: 16px; margin: 4px 0 8px; }
+  h2 { font-size: 14px; margin: 14px 0 6px; }
+  h3 { font-size: 13px; margin: 10px 0 4px; }
+  ul, ol { padding-left: 20px; margin: 4px 0; }
+  li { margin: 2px 0; }
+  p { margin: 6px 0; }
+  img { max-width: 100%; height: auto; border-radius: 6px; margin: 6px 0; }
+  code { font: 11px ui-monospace, Menlo, monospace;
+         background: rgba(127,127,127,.16); padding: 1px 4px; border-radius: 4px; }
+  pre code { display: block; padding: 8px; overflow-x: auto; }
+  a { color: #0a84ff; text-decoration: none; }
+  @media (prefers-color-scheme: dark) { body { color: #e8e8ed; } }
+</style></head><body>
+<h1>Focus 0.1.16</h1>
+<h2>Новое</h2>
+<ul>
+<li><strong>Сводка за сутки.</strong> Новая вкладка «Сводка» собирает активные чаты за выбранные сутки: сколько сообщений и участников, в какие часы кипела жизнь — с мини-графиком активности по каждому каналу. Одной кнопкой «Саммори за сутки» корпоративная модель делает выжимку чата — о чём говорили и что решили; «Суммировать день» строит выжимки сразу по всем активным. Листайте по дням, закрепляйте важные каналы, прячьте лишние.</li>
+<li><strong>Релиз-ноутсы в обновлениях.</strong> Теперь при предложении обновиться видно, что именно изменилось — этот текст вы читаете как раз в нём.</li>
+<li><strong>Карточка «Функции» в настройках.</strong> Возможности, которые можно включать и выключать под себя; их список будет расти. Для любопытных: 5 быстрых кликов по номеру версии открывают секретное меню с экспериментальными свойствами — переключатели разделов, «горячих» сообщений с темами оформления и другое.</li>
+</ul>
+<h2>Изменения по умолчанию</h2>
+<ul>
+<li><strong>Агент и MCP выключены.</strong> Вкладка «Агент» скрыта, а focus-mcp отвечает отказом, пока флаг «Агент и MCP» не включён в секретном меню.</li>
+<li>Секция «Ревью» в «Разборе утра» по умолчанию скрыта (флаг «Ревью»); «Релизы» остаются.</li>
+<li>Кнопка записи голосовых в композере по умолчанию скрыта (флаг «Голосовые сообщения»); прослушивание аудио работает как раньше.</li>
+<li>Подсветка «горячих» сообщений по умолчанию выключена — включается флагом «Горячие сообщения», там же настраиваются порог и тема.</li>
+</ul>
+<h2>Исправлено</h2>
+<ul>
+<li><strong>Код-блоки больше не роняют приложение.</strong> В 0.1.13 показ любого блока кода мог закрыть Focus, если терялся ресурсный бандл подсветки, — исправлено.</li>
+<li><strong>Подсветка синтаксиса переехала на нативный движок.</strong> highlight.js внутри JavaScriptCore заменён на чистый Swift (swift-highlight): тот же набор языков и та же разметка, но легче, быстрее на старте и без отдельного ресурсного бандла.</li>
+<li>Мелкие улучшения стабильности.</li>
+</ul>
+</body></html>
+]]></description>
+      <enclosure url="https://github.com/danelyan/focus-releases/releases/download/v0.1.16/Focus-0.1.16.dmg"
+                 sparkle:edSignature="U1mTDVFyespsuXX7eIpgOw4ORMDDBErYFjFxyVhkB/e1J+Aa6TFXNRTlsQUvdv68LQxEFWwmBLvujVBpJy7eDw=="
+                 length="8967742"
+                 type="application/octet-stream"/>
+    </item>
+
+    <item>
       <title>0.1.13</title>
       <pubDate>Tue, 21 Jul 2026 14:53:54 +0000</pubDate>
       <sparkle:version>14</sparkle:version>
