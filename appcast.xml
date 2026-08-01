@@ -2,6 +2,56 @@
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
     <item>
+      <title>0.1.19</title>
+      <pubDate>Sat, 01 Aug 2026 16:32:08 +0000</pubDate>
+      <sparkle:version>18</sparkle:version>
+      <sparkle:shortVersionString>0.1.19</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <description sparkle:descriptionFormat="html"><![CDATA[
+<!DOCTYPE html>
+<html lang="ru"><head><meta charset="utf-8"><style>
+  :root { color-scheme: light dark; }
+  body { font: 13px/1.5 -apple-system, "Helvetica Neue", sans-serif;
+         margin: 12px 16px; color: #1d1d1f; background: transparent; }
+  h1 { font-size: 16px; margin: 4px 0 8px; }
+  h2 { font-size: 14px; margin: 14px 0 6px; }
+  h3 { font-size: 13px; margin: 10px 0 4px; }
+  ul, ol { padding-left: 20px; margin: 4px 0; }
+  li { margin: 2px 0; }
+  p { margin: 6px 0; }
+  img { max-width: 100%; height: auto; border-radius: 6px; margin: 6px 0; }
+  code { font: 11px ui-monospace, Menlo, monospace;
+         background: rgba(127,127,127,.16); padding: 1px 4px; border-radius: 4px; }
+  pre code { display: block; padding: 8px; overflow-x: auto; }
+  a { color: #0a84ff; text-decoration: none; }
+  @media (prefers-color-scheme: dark) { body { color: #e8e8ed; } }
+</style></head><body>
+<h1>Focus 0.1.19</h1>
+<p>Обновление про окно и про то, чтобы ничего не тормозило: панели теперь тянутся мышью, картинки можно размечать точками прямо в переписке, а фоновая синхронизация включается тумблером в настройках вместо возни со скриптом.</p>
+<h2>Новое</h2>
+<ul>
+<li><strong>Разметка на картинках.</strong> Откройте вложение, нажмите «Разметить» и ставьте точки прямо по изображению: «① Тут отступ поехал». Точка уходит обычным ответом в тред, поэтому её видно и в Band на телефоне, и в вебе — там это просто сообщение с координатами, а Focus рисует его поверх картинки. В ленте у превью появляются номера, полноэкранный просмотр получил зум щипком и двойным кликом.</li>
+<li><strong>Панели тянутся мышью.</strong> Ширину сайдбара, панели треда и «Инфо» можно поменять перетаскиванием разделителя — приложение запомнит, как вам удобно.</li>
+<li><strong>Фоновая синхронизация — тумблером.</strong> Отдельный скрипт установки демона больше не нужен: <code>focus-cli</code> встроен в приложение, а «Фоновая синхронизация» в настройках включает и выключает его сама. Перед первым обращением к Keychain Focus объясняет, зачем ему доступ, — системное окно с паролем больше не появляется без предупреждения.</li>
+</ul>
+<h2>Исправлено</h2>
+<ul>
+<li><strong>Изменение ширины окна больше не тормозит и не дёргается.</strong> Раньше при тяге за край окна лента заново пересчитывала высоту всех сообщений канала — приложение подвисало на секунды, а содержимое подпрыгивало. Теперь пересчитывается только то, что на экране, и без анимации: протяжка окна стала быстрее в двадцать раз, зависаний нет.</li>
+<li><strong>Ответы из тредов не дублируются в ленте канала.</strong> В самом канале остаются только исходные сообщения, а ссылка на ответ открывает его в панели треда.</li>
+<li><strong>Синхронизация и лента стали легче.</strong> Поиск обновляется точечно вместо перестройки индекса, лишние запросы к серверу убраны, картинки грузятся экономнее. На больших каналах разница заметна, а база не растёт бесконечно.</li>
+<li><strong>Напоминание о сообщении</strong> снова работает: запрос уходил на неверный адрес и молча падал.</li>
+<li><strong>Больше не падает</strong> при открытии видео в ленте и при выходе из приложения (⌘Q) во время синхронизации.</li>
+<li><strong>Кнопки окна</strong> не липнут к скруглению угла, а содержимое не мигает при изменении размера.</li>
+</ul>
+</body></html>
+]]></description>
+      <enclosure url="https://github.com/danelyan/focus-releases/releases/download/v0.1.19/Focus-0.1.19.dmg"
+                 sparkle:edSignature="gDwVXcSVo+T1ethuVgRZiameCH2R1BJ2F5Ztv2X4W26BiiQlka/XjoihhNIFES9qGEsES4bI6/00arLYmhEMAw=="
+                 length="15912435"
+                 type="application/octet-stream"/>
+    </item>
+
+    <item>
       <title>0.1.17</title>
       <pubDate>Thu, 30 Jul 2026 07:36:36 +0000</pubDate>
       <sparkle:version>16</sparkle:version>
